@@ -1,0 +1,52 @@
+### This is a GitHub "organization" that contains git repositories for the operational science data processing code used by the NASA PREFIRE (Polar Radiant Energy in the Far-InfraRed Experiment) CubeSat mission.
+
+The PREFIRE observational science data archive is archived by the [NASA Atmospheric Science Data Center](https://asdc.larc.nasa.gov/), and can be accessed via the [data set landing page](https://asdc.larc.nasa.gov/project/PREFIRE) and [NASA Earthdata Search](https://search.earthdata.nasa.gov/search?fpj=PREFIRE).
+
+It may also be useful to refer to the PREFIRE data product [User Guides](https://prefire.ssec.wisc.edu/Documents/User_Guide/index.html) and [ATBDs](https://prefire.ssec.wisc.edu/Documents/ATBD/index.html) (Algorithm Theoretical Basis Documents).
+
+The current operational science data product release version is **R01**.  Each PREFIRE git repository contains an annotated _R01_ tag that indicates which git commit corresponds with the operational code used to produce those science data products.  A compressed archive containing _all_ the code relevant to the R01 science data product release is also available on Zenodo [here]().  The README files in each git repository contain further invaluable information about other code and/or data dependencies.
+
+| Data Product | Release | Primary Code Repo | Data Set DOI (link) |
+|---| PREFIRE-SAT1 |---|---|
+| 0-BUS_TLM | R01 | PREFIRE_L0 | https://doi.org/10.5067/PREFIRE-SAT1/PREFIRE/BUS-TLM_L0.R01 |
+| 0-PAYLOAD (raw) | R01 | PREFIRE_L0 | https://doi.org/10.5067/PREFIRE-SAT1/PREFIRE/PAYLOAD_L0.R01 |
+| 0-PAYLOAD_TLM (curated) | R01 | PREFIRE_L0 | https://doi.org/10.5067/PREFIRE-SAT1/PREFIRE/PAYLOAD-TLM_L0.R01 |
+| 1A-RAD | R01 | PREFIRE_L1 | https://doi.org/10.5067/PREFIRE-SAT1/PREFIRE/RAD_L1A.R01 |
+| 1B-RAD | R01 | PREFIRE_L1 |https://doi.org/10.5067/PREFIRE-SAT1/PREFIRE/RAD_L1B.R01 |
+| AUX-MET | R01 | PREFIRE_AUX_MET |https://doi.org/10.5067/PREFIRE-SAT1/PREFIRE/AUX-MET_L0.R01 |
+| AUX-SAT | R01 | PREFIRE_AUX_SAT |https://doi.org/10.5067/PREFIRE-SAT1/PREFIRE/AUX-SAT_L0.R01 |
+| 2B-MSK | R01 | PREFIRE_MSK |https://doi.org/10.5067/PREFIRE-SAT1/PREFIRE/MSK_L2B.R01 |
+| 2B-SFC | R01 | PREFIRE_SFC |https://doi.org/10.5067/PREFIRE-SAT1/PREFIRE/SFC_L2B.R01 |
+| 2B-ATM | R01 | PREFIRE_ATM |https://doi.org/10.5067/PREFIRE-SAT1/PREFIRE/ATM_L2B.R01 |
+| 2B-CLD | R01 | PREFIRE_CLD |https://doi.org/10.5067/PREFIRE-SAT1/PREFIRE/CLD_L2B.R01 |
+| 2B-FLX | R01 | PREFIRE_FLX |https://doi.org/10.5067/PREFIRE-SAT1/PREFIRE/FLX_L2B.R01 |
+| 3-SFC-SORTED-ALLSKY | R01 | PREFIRE_L3 | https://doi.org/10.5067/PREFIRE-SAT1/PREFIRE/SFC-SORTED-ALLSKY_L3.R01 |
+|---| PREFIRE-SAT2 |---|---|
+| 0-BUS_TLM | R01 | PREFIRE_L0 | https://doi.org/10.5067/PREFIRE-SAT2/PREFIRE/BUS-TLM_L0.R01 |
+| 0-PAYLOAD (raw) | R01 | PREFIRE_L0 | https://doi.org/10.5067/PREFIRE-SAT2/PREFIRE/PAYLOAD_L0.R01 |
+| 0-PAYLOAD_TLM (curated) | R01 | PREFIRE_L0 | https://doi.org/10.5067/PREFIRE-SAT2/PREFIRE/PAYLOAD-TLM_L0.R01 |
+| 1A-RAD | R01 | PREFIRE_L1 | https://doi.org/10.5067/PREFIRE-SAT2/PREFIRE/RAD_L1A.R01 |
+| 1B-RAD | R01 | PREFIRE_L1 | https://doi.org/10.5067/PREFIRE-SAT2/PREFIRE/RAD_L1B.R01 |
+| AUX-MET | R01 | PREFIRE_AUX_MET | https://doi.org/10.5067/PREFIRE-SAT2/PREFIRE/AUX-MET_L4.R01 |
+| AUX-SAT | R01 | PREFIRE_AUX_SAT | https://doi.org/10.5067/PREFIRE-SAT2/PREFIRE/AUX-SAT_L3.R01 |
+| 2B-MSK | R01 | PREFIRE_MSK | https://doi.org/10.5067/PREFIRE-SAT2/PREFIRE/MSK_L2B.R01 |
+| 2B-SFC | R01 | PREFIRE_SFC | https://doi.org/10.5067/PREFIRE-SAT2/PREFIRE/SFC_L2B.R01 |
+| 2B-ATM | R01 | PREFIRE_ATM | https://doi.org/10.5067/PREFIRE-SAT2/PREFIRE/ATM_L2B.R01 |
+| 2B-CLD | R01 | PREFIRE_CLD | https://doi.org/10.5067/PREFIRE-SAT2/PREFIRE/CLD_L2B.R01 |
+| 2B-FLX | R01 | PREFIRE_FLX | https://doi.org/10.5067/PREFIRE-SAT2/PREFIRE/FLX_L2B.R01 |
+| 3-SFC-SORTED-ALLSKY | R01 | PREFIRE_L3 | https://doi.org/10.5067/PREFIRE-SAT2/PREFIRE/SFC-SORTED-ALLSKY_L3.R01 |
+
+Additional ancillary data needed to properly run some of the PREFIRE data processing software are archived on Zenodo [here](https://zenodo.org/communities/prefire/).  The following ancillary data repositories are relevant for the _R01_ science data product release:
+
+| Ancillary Data Set | Data Set DOI (link) |
+|---|---|
+| PREFIRE_PCRTM_V3.4 ancillary data | https://doi.org/10.5281/zenodo.16694725 |
+| PREFIRE Spectral Response Function data (SRFs): v13 | https://doi.org/10.5281/zenodo.16638853 |
+| Ancillary data for PREFIRE_AUX_MET code | https://doi.org/10.5281/zenodo.17080630 |
+| Ancillary data for PREFIRE_ML_MSK (and PREFIRE_MSK) code | https://doi.org/10.5281/zenodo.17081025 |
+| Ancillary data for PREFIRE_SFC code | https://doi.org/10.5281/zenodo.17081695 |
+
+These git repositories are released under the terms of this [LICENSE](LICENSE).
+
+### _The creation of much of this code was supported by NASA, as part of the PREFIRE (Polar Radiant Energy in the Far-InfraRed Experiment) CubeSat mission._
+
