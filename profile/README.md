@@ -7,7 +7,7 @@ It may also be useful to refer to the PREFIRE data product [User Guides](https:/
 The current operational science data product release version is **R01**.  Each PREFIRE git repository contains an annotated _R01_ tag that indicates which git commit corresponds with the operational code used to produce those science data products.  A compressed archive containing _all_ the code relevant to the R01 science data product release is also available on Zenodo [here]().  The README files in each git repository contain further invaluable information about other code and/or data dependencies.
 
 | Data Product | Release | Primary Code Repo | Data Set DOI (link) |
-| ---- | PREFIRE-SAT1 | ---- | ---- |
+| ---- | ---- | ---- | ---- |
 | 0-BUS_TLM | R01 | PREFIRE_L0 | https://doi.org/10.5067/PREFIRE-SAT1/PREFIRE/BUS-TLM_L0.R01 |
 | 0-PAYLOAD (raw) | R01 | PREFIRE_L0 | https://doi.org/10.5067/PREFIRE-SAT1/PREFIRE/PAYLOAD_L0.R01 |
 | 0-PAYLOAD_TLM (curated) | R01 | PREFIRE_L0 | https://doi.org/10.5067/PREFIRE-SAT1/PREFIRE/PAYLOAD-TLM_L0.R01 |
@@ -21,7 +21,7 @@ The current operational science data product release version is **R01**.  Each P
 | 2B-CLD | R01 | PREFIRE_CLD | https://doi.org/10.5067/PREFIRE-SAT1/PREFIRE/CLD_L2B.R01 |
 | 2B-FLX | R01 | PREFIRE_FLX | https://doi.org/10.5067/PREFIRE-SAT1/PREFIRE/FLX_L2B.R01 |
 | 3-SFC-SORTED-ALLSKY | R01 | PREFIRE_L3 | https://doi.org/10.5067/PREFIRE-SAT1/PREFIRE/SFC-SORTED-ALLSKY_L3.R01 |
-| ---- | PREFIRE-SAT2 | ---- | ---- |
+| ---- | ---- | ---- | ---- |
 | 0-BUS_TLM | R01 | PREFIRE_L0 | https://doi.org/10.5067/PREFIRE-SAT2/PREFIRE/BUS-TLM_L0.R01 |
 | 0-PAYLOAD (raw) | R01 | PREFIRE_L0 | https://doi.org/10.5067/PREFIRE-SAT2/PREFIRE/PAYLOAD_L0.R01 |
 | 0-PAYLOAD_TLM (curated) | R01 | PREFIRE_L0 | https://doi.org/10.5067/PREFIRE-SAT2/PREFIRE/PAYLOAD-TLM_L0.R01 |
