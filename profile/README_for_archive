@@ -1,10 +1,10 @@
-### This is a GitHub "organization" that contains git repositories for the operational science data processing code used by the NASA PREFIRE (Polar Radiant Energy in the Far-InfraRed Experiment) CubeSat mission.
+### This archive contains git repositories for the operational science data processing code used by the NASA PREFIRE (Polar Radiant Energy in the Far-InfraRed Experiment) CubeSat mission to create the public R01 release of the science data products.
 
-The PREFIRE observational science data archive is archived by the [NASA Atmospheric Science Data Center](https://asdc.larc.nasa.gov/), and can be accessed via the [data set landing page](https://asdc.larc.nasa.gov/project/PREFIRE) and [NASA Earthdata Search](https://search.earthdata.nasa.gov/search?fpj=PREFIRE).
+The PREFIRE observational science data archive is archived by the NASA Atmospheric Science Data Center (https://asdc.larc.nasa.gov/), and can be accessed via the data set landing page (https://asdc.larc.nasa.gov/project/PREFIRE) and NASA Earthdata Search (https://search.earthdata.nasa.gov/search?fpj=PREFIRE).
 
-It may also be useful to refer to the PREFIRE data product [User Guides](https://prefire.ssec.wisc.edu/Documents/User_Guide/index.html) and [ATBDs](https://prefire.ssec.wisc.edu/Documents/ATBD/index.html) (Algorithm Theoretical Basis Documents).
+It may also be useful to refer to the PREFIRE data product User Guides (https://prefire.ssec.wisc.edu/Documents/User_Guide/index.html) and ATBDs (https://prefire.ssec.wisc.edu/Documents/ATBD/index.html) (Algorithm Theoretical Basis Documents).
 
-The current operational science data product release version is **R01**.  Each PREFIRE git repository contains an annotated _R01_ tag that indicates which git commit corresponds with the operational code used to produce those science data products.  A compressed archive containing _all_ the code relevant to the _R01_ science data product release is also available on Zenodo [here](https://doi.org/10.5281/zenodo.17088937).  The README files in each git repository contain further invaluable information about additional code and/or data dependencies.
+Each PREFIRE git repository contains an annotated 'R01' tag that indicates which git commit corresponds with the operational code used to produce those science data products.  The README files in each git repository contain further invaluable information about additional code and/or data dependencies.
 
 | Data Product | CubeSat, Release | Primary Code Repo | Data Set DOI (link) |
 | ---- | ---- | ---- | ---- |
@@ -36,7 +36,7 @@ The current operational science data product release version is **R01**.  Each P
 | 2B-FLX | SAT2, R01 | PREFIRE_FLX | https://doi.org/10.5067/PREFIRE-SAT2/PREFIRE/FLX_L2B.R01 |
 | 3-SFC-SORTED-ALLSKY | SAT2, R01 | PREFIRE_L3 | https://doi.org/10.5067/PREFIRE-SAT2/PREFIRE/SFC-SORTED-ALLSKY_L3.R01 |
 
-Additional ancillary data needed to properly run some of the PREFIRE data processing software are archived on Zenodo [here](https://zenodo.org/communities/prefire/).  The following ancillary data repositories are relevant for the _R01_ science data product release:
+Additional ancillary data needed to properly run some of the PREFIRE data processing software are archived on Zenodo (https://zenodo.org/communities/prefire/).  The following ancillary data repositories are relevant for the R01 science data product release:
 
 | Ancillary Data Set | Data Set DOI (link) |
 | ---- | ---- |
@@ -46,7 +46,6 @@ Additional ancillary data needed to properly run some of the PREFIRE data proces
 | Ancillary data for PREFIRE_ML_MSK (and PREFIRE_MSK) code | https://doi.org/10.5281/zenodo.17081025 |
 | Ancillary data for PREFIRE_SFC code | https://doi.org/10.5281/zenodo.17081695 |
 
-These git repositories are released under the terms of this [LICENSE](../LICENSE).
+These git repositories are released under the terms of the LICENSE included with this archive.
 
-### _The creation of much of this code was supported by NASA, as part of the PREFIRE (Polar Radiant Energy in the Far-InfraRed Experiment) CubeSat mission._
-
+### The creation of much of this code was supported by NASA, as part of the PREFIRE (Polar Radiant Energy in the Far-InfraRed Experiment) CubeSat mission.

@@ -76,3 +76,5 @@ __pycache__
 
 
 # Things that would otherwise be excluded:
+!profile/README_for_archive
+
